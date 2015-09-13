@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Sell It </title>
+<style>
+
+</style>
+</head>
+
+<body align="center">
+	<p><center><img src="sell_it_postit.jpg"/></center></p>
+        <marquee> Covers most of California including San Francisco, San Jose, Los Angeles and many more...  </marquee>
+	<form action="queryCityDb.php"
+		  method= "post">
+		<p><I> Customized Ads based on your location!! Try it out ...</I></p><br>
+		<fieldset align="center">
+		    <legend ><h3>Select your city</h3></legend>
+
+			<br>
+			<select name="city">
+			<option value="">select</option>
+			<option value="San Jose">San Jose</option>
+			<option value="San Francisco">San Francisco</option>
+			<option value="Los Gatos">Los Gatos</option>
+			<option value="Fremont">Fremont</option>
+                        <option value="LA">Los Angeles</option>
+
+			</select>
+			<input type="submit" value="Search" ></input>
+			<br>
+			</br>
+			<br>
+			</br>
+			<a href="postAd.html">Post Ad for your stuff  </a><p>  </p>
+			<a href="queryFullDb.php"> Fetch all Ads</a>
+		</fieldset>
+	</form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Sell It </title>
+</head>
+
+<body align="center">
+   <p><center><img src="sell_it_postit.jpg"/></center></p>
+     <marquee> Covers most of California including San Francisco, San Jose, Los Angeles ......!!  </marquee>
+   <form action="insertInDb.php"
+          method= "post">
+	<p><I>Selling your unused items could be so easy!
+	Enter few relevant details about your product.... </I></p>
+        <fieldset align="center">
+                    <legend >Sell your Product</legend>
+			               <p>
+			                   <label><B>Product name :</B></label>
+			                   <input name="product" type="text" placeholder="Car/Furniture/Laptop/Phone"/>
+			               </p>
+			               <p>
+			                   <label><B>Description :</B></label>
+			                   <textarea rows="4" cols="50" name="description" placeholder="Describe your product!" ></textarea>
+			               </p>
+			               <p>
+					  <label><B>Amount :</B></label>
+					  <input name="amount" type="text" placeholder="00.00$" />
+				       </p>
+                                       <p>
+					  <label><B>City :</B></label>
+						<select name="city">
+						<option value="San Jose">San Jose</option>
+						<option value="San Francisco">San Francisco</option>
+						<option value="Los Gatos">Los Gatos</option>
+						<option value="Fremont">Fremont</option/>
+						</select>
+				       </p>
+
+
+				       <p>
+					   <label><B>Negotiable ?</B></label>
+					   <select name="bargain">
+					       <option value="yes" selected>Yes</option>
+					       <option value="no">No</option>
+
+					   </select>
+				       </p>
+                                       <p>
+			               	<label><B>Condition : </B></label>
+					       	<input type="radio"
+					       	       name="condition"
+					       	       value="used"
+					       	       checked /> Used
+					       	<input type="radio"
+					       	       name="condition"
+					       	       value="new" /> New
+			              	</p>
+
+
+					    <p>
+						<input type="submit" value="Post your Ad !" ></input>
+						<button onclick="#">Cancel</button>
+					    </p>
+              </fieldset>
+    </form>
+</body>
+</html>

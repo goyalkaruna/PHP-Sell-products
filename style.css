@@ -1,0 +1,30 @@
+
+
+  body {
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: #990066;
+    background-color: #;
+   }
+  h3 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+legend{
+   font-weight: bold;
+   color: blue;
+   font-size: x-large; 
+}
+h1{
+  color: #990066;
+}
+fieldset{
+   border: 2px #0066FF solid;
+   background-color: ;
+}
+
+marquee{
+  color: blue;
+
+}
+
+
