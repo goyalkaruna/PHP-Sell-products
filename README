@@ -1,1 +1,13 @@
-THis is a buy sell application
+THis is a buy sell application.
+
+The sqldump can be imported in your mysql. You can use xampp as your web server.
+
+
+User inputs the details about the product he wants to sell on the postAd.html.
+It gets added to the mysql database.
+
+The user can select city to get ads from a particular location.
+
+He can see all the ads if he clicks Fetch all.
+
+
